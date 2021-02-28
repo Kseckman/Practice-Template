@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* nav */
+
+nav ul{
+    padding-right: 20px;
+}
+
+nav li{
+    padding: 0 15px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/* jumbotron */
+.jumbotron-fluid{
+    background-image: url('img/casey-horner-YEis85JikCE-unsplash.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+@media (min-width:768px){
+    .sec1{ 
+        border-right: 1px solid rgb(219, 217, 217);
+    }
+}
+
+@media (min-width:768px){
+    .sec2{ 
+        border-left: 1px solid rgb(219, 217, 217);
+    }
+}
+
+
+#section1{
+    background: rgb(243, 243, 242);
+}
+
+
+.sectionp{
+    padding-top:10px;
+    line-height: 2.5;
+}
+
+.img-section{
+    max-width: 100%;
+    height: auto;
+}
+
+.li-about{
+    text-align: none;
+    list-style: none;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    line-height: 2.5;
+}
+
+.list-group-flush li{
+    background-color: rgb(243, 243, 242);;
+}
+
+.footer{
+    background: rgb(243, 243, 242);
+}
