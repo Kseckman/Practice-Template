@@ -1,6 +1,9 @@
 body{
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -20,16 +23,22 @@ nav a:hover{
 }
 
 /* jumbotron */
-.jumbotron-fluid{
-    background-image: url('img/casey-horner-YEis85JikCE-unsplash.jpg');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
-    display: flex;
+.jumbotron-fluid{
+    height:70vh;
     align-items: center;
     color:white;
 }
+
+.background{
+    background-image: url('img/casey-horner-YEis85JikCE-unsplash.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* sections */
 
 @media (min-width:768px){
     .sec1{ 
@@ -47,7 +56,6 @@ nav a:hover{
 #section1{
     background: rgb(243, 243, 242);
 }
-
 
 .sectionp{
     padding-top:10px;
@@ -72,5 +80,5 @@ nav a:hover{
 }
 
 .footer{
-    background: rgb(243, 243, 242);
+    background: rgb(233, 233, 233);
 }
